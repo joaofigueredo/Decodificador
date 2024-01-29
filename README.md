@@ -1,5 +1,8 @@
 # Challenge ONE Iniciante em Programação
 ## Um pequeno projeto de decodificador, onde podemos criptografar e descriptografar palavras
+
+## Contém um input para captar o texto, os botões de criptografar e descriptografar. Também contém um botão para copiar o resultado da ação que o usuário utilizar.
+
 ## As "chaves" de criptografia usadas
 - A letra "e" é convertida para "enter"
 - A letra "i" é convertida para "imes"
