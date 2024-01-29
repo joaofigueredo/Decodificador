@@ -19,20 +19,25 @@ body{
     display: flex;
     flex-direction: column;
 }
+.conteudo__apresentacao__fotoDecod{
+    width: 3rem;
+    height: 3rem;
+    
+}
 
 .conteudo__apresentacao__leitorDeTexto {
     width: 100%;
     height: 4rem;
     font-size: 1.5rem;
     border: none;
-    margin-top: 8%;
+    margin-top: 10%;
     background-color: #E5E5E5;
 }
 .conteudo__apresentacao__botoes {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 70.4%;
+    margin-top: 68%;
 }
 .conteudo__apresentacao__botoes__imagemETexto{
     display: flex;
@@ -92,7 +97,6 @@ body{
 .conteudo__criptografado__imagemGaroto{
     width: 21rem;
     height: 19rem;
-    
 }
 
 .conteudo__criptografado_paragrafo{
@@ -137,7 +141,7 @@ body{
     }
     .conteudo__apresentacao__botoes {
         
-        margin-top: 70%;
+        margin-top: 50%;
     }
     .conteudo__criptografado{
         width: 100%;   
