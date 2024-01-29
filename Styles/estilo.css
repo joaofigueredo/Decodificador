@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +12,7 @@ body{
 .conteudo {
     display: flex;
     justify-content: center;
-    margin: 30px;
+    margin: 1.8rem;
 }
 
 .conteudo__apresentacao{
@@ -20,18 +21,18 @@ body{
 }
 
 .conteudo__apresentacao__leitorDeTexto {
-    width: 610px;
-    height: 48px;
-    font-size: 16px;
+    width: 100%;
+    height: 4rem;
+    font-size: 1.5rem;
     border: none;
-    margin-top: 10%;
+    margin-top: 8%;
     background-color: #E5E5E5;
 }
 .conteudo__apresentacao__botoes {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 70%;
+    margin-top: 70.4%;
 }
 .conteudo__apresentacao__botoes__imagemETexto{
     display: flex;
@@ -69,61 +70,86 @@ body{
     margin-left: 1.5rem;
 }
 
-
 .imagemDeAlerta{
-    width: 12px;
-    height: 12px;
+    width: 0.75rem;
+    height: 0.75rem;
 }
+
 .conteudo__criptografado{
-    width: 400px;   
+    width: 30%;   
     background-color: white;
-    border-radius: 32px;
+    border-radius: 2rem;
     box-shadow: 0px 0px 1px black;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-left: 5%;
-    height: 90vh;
+    margin-left: 2%;
+    height: 43.2rem;
 }
 
-
-
 .conteudo__criptografado__imagemGaroto{
-    width: 336px;
-    height: 304;
+    width: 21rem;
+    height: 19rem;
     
 }
 
 .conteudo__criptografado_paragrafo{
-    font-size: 1rem;
-    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;;
 }
 
 .conteudo__criptografado_titulo{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: 'Inter', sans-serif;
     font-weight: bolder;
 }
 
 .botaoColar {
     display: none;
-    height: 67px;
-    width: 310px;
-    padding: 24px;
+    height: 4.2rem;
+    width: 19.5rem;
+    padding: 1.5rem;
     font-size: 1rem;
     color: darkblue;
     border-radius: 1.5rem;
     background-color: white;
-    margin: 40px;
-
+    margin: 2.5rem;
 }
 
 .rodape{
     padding: 0.5rem;
     text-align: center;
     font-size: 1.5rem;
-    background-color: purple;
+    background-color: darkblue;
     color: white;
+}
+
+@media (max-width: 1000px) {
+    .conteudo__criptografado__imagemGaroto{
+        display: none;
+    }
+    .conteudo{
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .conteudo__apresentacao__botoes {
+        
+        margin-top: 70%;
+    }
+    .conteudo__criptografado{
+        width: 100%;   
+        background-color: white;
+        border-radius: 2rem;
+        box-shadow: 0px 0px 1px black;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 0;
+        height: 20.2rem;
+    }
 }

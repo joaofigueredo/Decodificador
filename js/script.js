@@ -54,22 +54,22 @@ function descriptografar() {
     }
     //substituir i por imes
     if(texto.includes("imes")){
-        let regex = /imes+/g;
+        let regex = /(imes)/g;
         texto = texto.replace(regex, "i");
     }
     //substituir a por ai
     if(texto.includes("ai")){
-        let regex = /ai+/g;
+        let regex = /(ai)/g;
         texto = texto.replace(regex, "a");
     }
     //substituir o por ober
     if(texto.includes("ober")){
-        let regex = /ober+/g;
+        let regex = /(ober)/g;
         texto = texto.replace(regex, "o");
     }
     //substituir u por ufat
     if(texto.includes("ufat")){
-        let regex = /ufat+/g;
+        let regex = /(ufat)/g;
         texto = texto.replace(regex, "u");
     }
 
@@ -79,8 +79,9 @@ function descriptografar() {
         .style.visibility = 'hidden';
     document.getElementById('conteudo__criptografado_paragrafo')
         .innerHTML = texto;
+    
     document.getElementById('botaoColar')
-    .style.display = "inline-block";
+        .style.display = "inline-block";
 }
 
 function copiarTexto() {
