@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.conteudo__apresentacao{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo__apresentacao__leitorDeTexto {
+    width: 610px;
+    height: 48px;
+    font-size: 16px;
+    border: none;
+    margin-top: 10%;
+    background-color: #E5E5E5;
+}
+.conteudo__apresentacao__botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 70%;
+}
+.conteudo__apresentacao__botoes__imagemETexto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 272px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 2%;
+}
+
+.conteudo__apresentacao__botoes__doisBotoes{
+    display: flex;
+    flex-direction: row;
+}
+
+.conteudo__apresentacao__botoes__botaoCriptografar {
+        height: 67px;
+        width: 328px;
+        padding: 24px;
+        font-size: 1rem;
+        color: white;
+        border-radius: 1.5rem;
+        background-color: darkblue;
+}
+
+.conteudo__apresentacao__botoes__botaoDescriptografar {
+    height: 67px;
+    width: 328px;
+    padding: 24px;
+    font-size: 1rem;
+    color: darkblue;
+    border-radius: 1.5rem;
+    background-color: #D8DFE8;
+    margin-left: 1.5rem;
+}
+
+
+.imagemDeAlerta{
+    width: 12px;
+    height: 12px;
+}
+.conteudo__criptografado{
+    width: 400px;   
+    background-color: white;
+    border-radius: 32px;
+    box-shadow: 0px 0px 1px black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+    height: 90vh;
+}
+
+
+
+.conteudo__criptografado__imagemGaroto{
+    width: 336px;
+    height: 304;
+    
+}
+
+.conteudo__criptografado_paragrafo{
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.conteudo__criptografado_titulo{
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+}
+
+.botaoColar {
+    display: none;
+    height: 67px;
+    width: 310px;
+    padding: 24px;
+    font-size: 1rem;
+    color: darkblue;
+    border-radius: 1.5rem;
+    background-color: white;
+    margin: 40px;
+
+}
+
+.rodape{
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: purple;
+    color: white;
+}
